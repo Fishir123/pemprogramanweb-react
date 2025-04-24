@@ -1,5 +1,7 @@
 import Greeting from "./components/Greeting";
 import ProductList from "./components/ProductList"; 
+import Mahasiswa from "./components/Mahasiswa";
+import PostList from "./components/PostList"; 
 
 function App() {
   return (
@@ -7,6 +9,13 @@ function App() {
       <h1>React Frontend - Pertemuan 9</h1>
       <Greeting name="Mahasiswa" />
       <ProductList />
+      <Mahasiswa
+        nama="Faiq Muntashir"
+        nrp="3124522011"
+        prodi="Teknik 
+        Informatika"
+      />
+      <PostList />
     </div>
   );
 }
